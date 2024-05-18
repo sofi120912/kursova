@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
+            background-color: #fdafaf;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -19,7 +19,7 @@
         }
 
         p {
-            color: #666;
+            color: #000000;
             margin-bottom: 20px;
         }
 
@@ -27,22 +27,22 @@
             display: inline-block;
             margin: 10px;
             padding: 10px 20px;
-            background-color: #4caf50;
-            color: #fff;
+            background-color: #fdafaf;
+            color: #2c2c2c;
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s;
         }
 
         a:hover {
-            background-color: #45a049;
+            background-color: #ff9cd7;
         }
 
         #home, #catalog, #contact {
             max-width: 800px;
             margin: 0 auto 50px;
             padding: 20px;
-            background-color: #fff;
+            background-color: #ec9292;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -54,8 +54,16 @@
         }
 
         #catalog li {
-            color: #666;
+            color: #303030;
             margin-bottom: 10px;
+        }
+        img {
+            width: 250px;
+        }
+        .product{
+            border: solid 5px #e97575;
+            border-radius: 10px;
+          
         }
     </style>
 </head>
@@ -72,14 +80,40 @@
 <!-- Сторінка каталогу -->
 <div id="catalog">
     <h1>Наш каталог продуктів</h1>
-    <ul>
-        <li>Крем для обличчя</li>
-        <li>Шампунь для волосся</li>
-        <li>Тонік для шкіри</li>
+    <div id="catalog">
+        
+        <div class="product">
+            <img src="https://u.makeup.com.ua/z/zb/zbfp2imxanwq.png" alt="Крем для обличчя">
+            <h2>Крем для обличчя</h2>
+            <p>Найкращий крем для вашої шкіри обличчя.</p>
+        </div>
+        <br>
+        <div class="product">
+            <img src="https://u.makeup.com.ua/e/ef/efvuenzsdol0.jpg" alt="Шампунь для волосся">
+            <h2>Шампунь для волосся</h2>
+            <p>Здорове та сяюче волосся з нашим шампунем.</p>
+        </div>
+        <br>
+    
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY-1WAhsZ3Zli1qGFQBDTvGw5_afW6WXNoEx_tKasiOmP5-wXXzGpgRhboD9CSQIQD738&usqp=CAU" alt="Тонік для шкіри">
+            <h2>Тонік для шкіри</h2>
+            <p>Освіжаючий тонік для вашої шкіри.</p>
+        </div>
+        <br>
+    
+        <div class="product">
+            <img src="https://bioaqua-ukraine.com/image/cache/catalog/telo/cream/1599-2-500x500.jpg" alt="Лосьйон для тіла">
+            <h2>Лосьйон для тіла</h2>
+            <p>Зволожуючий лосьйон для вашої шкіри тіла.</p>
+        </div>
+        <br>
+    
         <!-- Додайте інші продукти тут -->
-    </ul>
-    <a href="index.html">На головну</a>
-    <a href="contact.html">Контактна інформація</a>
+        <a href="index.html">На головну</a>
+        <a href="contact.html">Контактна інформація</a>
+    </div>
+   
 </div>
 
 <!-- Сторінка з контактною інформацією -->
